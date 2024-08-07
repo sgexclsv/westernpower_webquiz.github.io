@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "826202518423",
+    "firebase_url": "https://westernpower-webquiz-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "westernpower-webquiz",
+    "storage_bucket": "westernpower-webquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826202518423:android:4dd7bb0bcca85cc8038ad2",
+        "android_client_info": {
+          "package_name": "com.GiantForestGameStudio.WesternPowerWebQuiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX7P_FlYwo5kDOJ9fhhFPo4vMYsP4SofE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
