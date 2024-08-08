@@ -7,12 +7,12 @@
   <style>body { background-color: black; }</style></head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/AAAAA.loader.js"></script>
+    <script src="Build/AA.loader.js"></script>
     <script>
       
                 function resizeCanvas() {
                     var canvas = document.querySelector('#unity-canvas');
-                    var aspectRatio = 390 / 844;
+                    var aspectRatio = 390 / 651;
                     var newHeight = window.innerHeight;
                     var newWidth = newHeight * aspectRatio;
                     canvas.style.height = newHeight + 'px';
@@ -41,9 +41,9 @@
                 
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/AAAAA.data",
-        frameworkUrl: "Build/AAAAA.framework.js",
-        codeUrl: "Build/AAAAA.wasm",
+        dataUrl: "Build/AA.data",
+        frameworkUrl: "Build/AA.framework.js",
+        codeUrl: "Build/AA.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Giant Forest Game Studio",
         productName: "WesternPower_WebQuiz",
